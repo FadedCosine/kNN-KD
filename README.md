@@ -109,7 +109,7 @@ The batch size and update-freq should be adjust by yourself depends on your gpu.
 
 ## **Inference**
 ------
-### **Inference of Base NMT Model and our method **
+### **Inference of Base NMT Model and our method**
 Since our method maintain the same decoding process in standard Seq2Seq manner, the following scripts can be used to do the inference of base NMT model and our method:
 ```bash
 sh commands/base_NMT_inference.sh
