@@ -134,5 +134,18 @@ We recommend you to use below hyper-parameters to replicate the vanilla knn-mt r
 If you find our paper useful to your work, please kindly cite our paper:
 
 ```
-TODO
+@inproceedings{yang-etal-2022-nearest,
+    title = "Nearest Neighbor Knowledge Distillation for Neural Machine Translation",
+    author = "Yang, Zhixian  and
+      Sun, Renliang  and
+      Wan, Xiaojun",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.406",
+    pages = "5546--5556",
+    abstract = "k-nearest-neighbor machine translation ($k$NN-MT), proposed by Khandelwal et al. (2021), has achieved many state-of-the-art results in machine translation tasks. Although effective, $k$NN-MT requires conducting $k$NN searches through the large datastore for each decoding step during inference, prohibitively increasing the decoding cost and thus leading to the difficulty for the deployment in real-world applications. In this paper, we propose to move the time-consuming $k$NN search forward to the preprocessing phase, and then introduce $k$ Nearest Neighbor Knowledge Distillation ($k$NN-KD) that trains the base NMT model to directly learn the knowledge of $k$NN. Distilling knowledge retrieved by $k$NN can encourage the NMT model to take more reasonable target tokens into consideration, thus addressing the overcorrection problem. Extensive experimental results show that, the proposed method achieves consistent improvement over the state-of-the-art baselines including $k$NN-MT, while maintaining the same training and decoding speed as the standard NMT model.",
+}
 ```
